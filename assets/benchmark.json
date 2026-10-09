@@ -1,0 +1,21 @@
+{
+  "python": "3.14.6",
+  "numpy": "2.4.6",
+  "map": "Synthetic 9 x 12 grid from examples.common.synthetic_mission",
+  "grid_shape": [
+    9,
+    12
+  ],
+  "start": [
+    1,
+    1
+  ],
+  "goal": [
+    7,
+    10
+  ],
+  "altitude": null,
+  "safety_distance": null,
+  "timing": "One perf_counter sample, search only; not a stable speed ranking",
+  "expansions": "Successor-list evaluations; excludes goal and stale entries; IDA* sums all iterations"
+}

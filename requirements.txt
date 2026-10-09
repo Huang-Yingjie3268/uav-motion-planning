@@ -1,0 +1,3 @@
+# Standalone algorithms and figures; simulator SDK is intentionally separate.
+numpy
+matplotlib

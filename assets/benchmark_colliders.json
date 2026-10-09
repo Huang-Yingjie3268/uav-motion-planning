@@ -1,0 +1,22 @@
+{
+  "python": "3.14.6",
+  "numpy": "2.4.6",
+  "map": "External colliders grid; map not redistributed",
+  "grid_shape": [
+    933,
+    933
+  ],
+  "start": [
+    321,
+    450
+  ],
+  "goal": [
+    476,
+    435
+  ],
+  "altitude": 5.0,
+  "safety_distance": 5.0,
+  "timing": "One perf_counter sample, search only; not a stable speed ranking",
+  "expansions": "Successor-list evaluations; excludes goal and stale entries; IDA* sums all iterations",
+  "map_sha256": "7819d36b7929e6437fe1b14fdf3dc50923fb9eb2e22ba158ba753672e37c06c1"
+}

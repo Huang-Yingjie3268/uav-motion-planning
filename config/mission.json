@@ -1,0 +1,20 @@
+{
+  "target_altitude": 5.0,
+  "safety_distance": 5.0,
+  "required_checkpoints": [[20, 30], [40, -5], [60, 30]],
+  "entry_points": [[0, 30]],
+  "shaping_after_checkpoint": [[[27, 10], [34, 30]], [[48, 30], [54, 10]], []],
+  "cruise_points": [[60, -15], [100, -15], [100, -85]],
+  "route_origin": [0, 0],
+  "final_destination": [155, -15],
+  "use_route_shaping": false,
+  "auto_reverse": true,
+  "transit_acceptance_radius": 1.5,
+  "fixed_point_acceptance_radius": 3.0,
+  "checkpoint_acceptance_radius": 4.0,
+  "turn_acceptance_radius": 2.0,
+  "final_acceptance_radius": 1.5,
+  "altitude_acceptance_radius": 0.5,
+  "transit_flyby_progress": 0.9,
+  "transit_cross_track_limit": 1.5
+}

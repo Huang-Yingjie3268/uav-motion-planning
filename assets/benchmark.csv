@@ -1,0 +1,4 @@
+method,search_cost,expanded_nodes,elapsed_seconds,raw_path_length,pruned_waypoint_count
+A* Euclidean,12.65685424949238,45,0.0024678000481799245,12,3
+A* Octile,12.65685424949238,40,0.002252299920655787,12,3
+IDA* Octile,12.656854249492381,221,0.01819679990876466,12,4

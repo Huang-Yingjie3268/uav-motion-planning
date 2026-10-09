@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-08",
+  "python": "3.14.6",
+  "numpy": "2.4.6",
+  "matplotlib": "3.11.0",
+  "pytest": "9.0.3",
+  "tests": 107,
+  "passed": 106,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 1,
+  "external_map_enabled": true,
+  "command": "python -m pytest -q -ra -p no:debugging",
+  "environment": {
+    "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1",
+    "UAV_COLLIDERS_CSV": "<external authorized map>"
+  },
+  "skip_reasons": [
+    {
+      "test": "tests.test_simulator_integration.test_real_sdk_and_simulator_connectivity",
+      "reason": "Live SDK/simulator not enabled; mocked callbacks do not validate physical flight"
+    }
+  ],
+  "junit_suite_seconds": 4.563,
+  "pytest_reported_seconds": 5.57,
+  "without_external_assets": {
+    "passed": 101,
+    "failed": 0,
+    "skipped": 6,
+    "pytest_reported_seconds": 1.74,
+    "skip_reasons": {
+      "external_map_full_preflight": 4,
+      "external_map_independent_validation": 1,
+      "live_simulator_connectivity": 1
+    }
+  }
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+.deps/
+Logs/
+colliders.csv
+*.pdf
+*.zip
+*.log
+.coverage
+htmlcov/
